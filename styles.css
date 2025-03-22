@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #8f0606;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.centrarimagencentral {
+    text-align: center;
+}
+
+.misredessociales {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-self: center;
+}
+.misredessociales a {
+    text-decoration: none;
+}
+.misredessociales img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+}
+
+
+h3 {
+    color: #333;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #8f0606;
+    color: white;
+}
+
+form {
+    background-color: #f6eeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(8, 12, 1);
+    width: 97%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #a41313;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(2, 1, 7);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #8f0606;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

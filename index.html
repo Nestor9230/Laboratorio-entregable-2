@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sobre mi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a la Primera Pagina Web de Nestor Mora Celis</h1>
+    </header>
+
+    <nav>
+        <div class="misredessociales" alt="Imagen centrada">
+
+            <a href="https://www.instagram.com/nestormora30?igsh=aDk3NTk3OWFmcXFw" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/hugo-celis-93292263/" target="_blank">
+                <img src="linkein.png" alt="LinkedIn">
+            </a>
+            
+            <a href="https://wa.me/573132002196" target="_blank">
+                <img src="whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="centrarimagencentral">
+            <img src="Captura.PNG" alt="Imagen centrada">
+        </div>
+
+        <h2>Nestor Hugo Mora Celis</h2>
+        <p>Tecnologo en diseño e integración de automatismos mecatrónicos del SENA en Bogotá, Colombia. Me califico como una persona con mentalidad emprendedora y exigente consigo misma, con un espíritu investigativo, alto grado de compromiso, capacidad y voluntad de realizar las actividades que se le asignen con calidad humana y habilidad para identificar necesidades.</p>
+        <br>
+
+        <h2>Estudios realizados</h2>
+        <ul>
+            <li>Tecnología en Diseño e Integración de Automatismos Mecatrónicos</li>
+            <li>Tecnología en Administración y Ejecución de Construcciones</li>
+            <li>Técnico en Carpintería para la Construcción</li>
+            <li>Bachiller Técnico en Ebanistería y Modelería.</li>
+            <li>Primaria</li>
+        </ul>
+        <h2>Lista de tareas Pendiente por hacer:</h2>
+        <ol>
+            <li>Despierto</li>
+            <li>Desayuno</li>
+            <li>Almuerzo</li>
+            <li>Cenar</li>
+            <li>Descansar</li>
+        </ol>
+        <h2>Horario</h2>
+        <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+                <td>Despierto</td>
+            </tr>
+            <tr>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+                <td>Desayuno</td>
+            </tr>
+            <tr>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+            </tr>
+            <tr>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+                <td>Cenar</td>
+            </tr>
+            <tr>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+                <td>Descansar</td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="name">Nombres y Apellidos Completos:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="reason">Motivo de contacto (Por favor sea especifico):</label>
+                <textarea id="reason" name="reason" required></textarea><br><br>
+
+                <label for="email">Correo electronico de contacto:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <hr>
+            &copy; 2025 - Mi primera pagina web
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
